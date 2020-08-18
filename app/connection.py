@@ -12,6 +12,5 @@ connection = pymysql.connect(
     host = MYSQL_HOST , 
     user = MYSQL_USER ,
     passwd= MYSQL_PASSWORD , 
-    db = MYSQL_DATABASE ,
-    port=3306
+    db = MYSQL_DATABASE
 )
